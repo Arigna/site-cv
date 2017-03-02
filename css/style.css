@@ -40,7 +40,7 @@ section {
     padding: 86px 0;
 }
 .container {
-    max-width: 80%;
+    width: 1170px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -132,7 +132,7 @@ header nav li:hover {
     border: solid 1px #fafafa;
     text-transform: uppercase;
     transition-duration: 0.3s;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 #accueil a:hover {
     background: #ACA394;
