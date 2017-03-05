@@ -19,7 +19,7 @@ html, body {
 body {
     font: 16px 'Josefin Sans', sans-serif;
     background: #fafafa;
-    color: #233657;
+    color: #060F2E;
 }
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
@@ -58,7 +58,7 @@ header {
     transition-duration: 0.4s;
 }
 .header-scroll { /* Anim JS lors du scroll */
-    background: #233657;
+    background: #060F2E;
     box-shadow: 2px 2px 5px #636773;
 }
 /**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -68,7 +68,7 @@ header h1 {
 }
 header h1 span:first-of-type {
     font-weight: 100;
-    color: #ACA394;
+    color: #C1AF99;
 }
 header h1 span:last-of-type {
     display: block;
@@ -87,7 +87,7 @@ header nav li {
     transition-duration: 0.3s;
 }
 header nav li:hover {
-    background: #ACA394;
+    background: #C1AF99;
     cursor: pointer;
 }
 
@@ -120,7 +120,7 @@ header nav li:hover {
     font-weight: 600;
 }
 #accueil cite span {
-    color: #ACA394;
+    color: #C1AF99;
     font-size: 35px;
 }
 #accueil a {
@@ -135,7 +135,7 @@ header nav li:hover {
     border-radius: 5px;
 }
 #accueil a:hover {
-    background: #ACA394;
+    background: #C1AF99;
     border: solid 1px transparent;
 }
 
@@ -152,20 +152,20 @@ header nav li:hover {
     line-height: 40px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #ACA394;
+    color: #C1AF99;
     border-bottom: solid 1px #ddd;
     transition-duration: 0.3s;
 }
 #presentation ul li:hover {
-    color: #233657;
-    border-bottom: solid 1px #233657;
+    color: #060F2E;
+    border-bottom: solid 1px #060F2E;
 }
 #presentation a#dl-cv {
     display: block;
     float: right;
     line-height: 41px;
     padding: 0 10px;
-    background: #233657;
+    background: #060F2E;
     color: #fafafa;
     border-radius: 3px;
     transition-duration: 0.3s;
@@ -242,7 +242,7 @@ header nav li:hover {
     margin: 10px 0;
     line-height: 35px;
     padding: 0 20px;
-    background: #ACA394;
+    background: #C1AF99;
     border: solid 1px transparent;
     transition-duration: 0.3s;
     border-radius: 5px;
@@ -270,13 +270,13 @@ header nav li:hover {
     line-height: 40px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #ACA394;
+    color: #C1AF99;
     border-bottom: solid 1px #ddd;
     transition-duration: 0.3s;
 }
 #realisations .container>ul>li:hover {
-    color: #233657;
-    border-bottom: solid 1px #233657;
+    color: #060F2E;
+    border-bottom: solid 1px #060F2E;
 }
 
 /* Le tableau */
@@ -292,7 +292,7 @@ header nav li:hover {
 .rea-cell {
     display: table-cell;
     width: 33.3333%;
-    border: solid 1px #ACA394;
+    border: solid 1px #C1AF99;
 }
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
@@ -311,7 +311,7 @@ header nav li:hover {
 /* Footer */
 
 footer {
-    background: #233657;
+    background: #060F2E;
     color: #fafafa;
 }
 footer .container {
@@ -323,7 +323,7 @@ footer h3 {
 }
 footer h3 span:first-of-type {
     font-weight: 100;
-    color: #ACA394;
+    color: #C1AF99;
 }
 footer h3 span:last-of-type {
     display: block;
@@ -376,8 +376,8 @@ footer ul li i.fa-viadeo:hover {
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**/
 footer p:last-of-type {
-    background: #ACA394;
-    color: #233657;
+    background: #C1AF99;
+    color: #060F2E;
     text-align: center;
     line-height: 50px;
     border-top: solid 1px #fafafa;
