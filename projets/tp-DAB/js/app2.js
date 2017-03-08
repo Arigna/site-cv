@@ -9,7 +9,7 @@ function retrait() {
 	var ticket = document.querySelector('#ticket');
 
 	// 2) Taper le code :
-	message.innerHTML="<p>Veuillez taper votre code</p><form method='get'><input type='text' name='code' placeholder='Code' id='codeCarte'><input type='button' name='ok' value='ok' id='ok'></form><p>à l'abri des regards indiscret</p>";
+	message.innerHTML="<p>Veuillez taper votre code</p><form method='get'><input type='text' name='code' placeholder='Code' id='codeCarte'><input type='button' name='ok' value='ok' id='ok'></form><p>à l'abri des regards indiscrets</p>";
 	var codeCarte = document.querySelector('#codeCarte');
 	var confirm = document.querySelector('#ok');
 	confirm.addEventListener('click',function(){
