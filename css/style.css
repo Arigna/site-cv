@@ -1,126 +1,46 @@
-@charset "UTF-8";
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Les Imports */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600");
-/*GoogleFont*/
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-/*FontAwesome*/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,600"); /*GoogleFont*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); /*FontAwesome*/
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Reset CSS */
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 html, body {
-  height: 100%; }
-
+  height: 100%;
+}
 body {
   font: 16px 'Josefin Sans', sans-serif;
   background: #fafafa;
   color: #060F2E; }
-
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase; }
-
 h2 {
   text-align: center;
   font-size: 30px; }
-
 a {
   text-decoration: none;
   outline: none;
   color: inherit; }
-
 ul {
   list-style: none; }
-
 section {
   padding: 86px 0; }
-
 .container {
   width: 1170px;
   margin: 0 auto;
   overflow: hidden; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Le header */
+
 header {
   padding: 5px 0;
   position: fixed;
@@ -135,19 +55,6 @@ header {
   background: #060F2E;
   box-shadow: 2px 2px 5px #636773; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
 header h1 {
   font-size: 30px;
   float: left; }
@@ -161,19 +68,6 @@ header h1 span:last-of-type {
   font-size: 14px;
   letter-spacing: 7px; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
 header nav {
   float: right; }
 
@@ -188,32 +82,7 @@ header nav li:hover {
   background: #C1AF99;
   cursor: pointer; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Accueil */
 #accueil {
   background: -webkit-linear-gradient(to bottom, rgba(35, 54, 87, 0.6) 0%, rgba(35, 54, 87, 0.6) 100%), url(../img/bg_road.jpg) no-repeat center center;
@@ -259,33 +128,8 @@ header nav li:hover {
   background: #C1AF99;
   border: solid 1px transparent; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/* Pr├®sentation */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/* Présentation */
 #presentation ul {
   float: left; }
 
@@ -302,7 +146,8 @@ header nav li:hover {
 
 #presentation ul li:hover {
   color: #060F2E;
-  border-bottom: solid 1px #060F2E; }
+  border-bottom: solid 1px #060F2E;
+}
 
 #presentation a#dl-cv {
   display: block;
@@ -319,19 +164,7 @@ header nav li:hover {
   font-family: 'FontAwesome';
   margin-right: 10px; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**/
 #presentation h2 {
   clear: both;
   margin: 80px 0 25px; }
@@ -352,33 +185,8 @@ header nav li:hover {
   -webkit-background-size: contain;
   background-size: contain; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/* Comp├®tences */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/* Compétences */
 #competences {
   background: -webkit-linear-gradient(to bottom, rgba(35, 54, 87, 0.9) 0%, rgba(35, 54, 87, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
   background: linear-gradient(to bottom, rgba(35, 54, 87, 0.9) 0%, rgba(35, 54, 87, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
@@ -428,33 +236,8 @@ header nav li:hover {
   background: inherit;
   border: solid 1px #fafafa; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/* R├®alisations */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+/* Réalisations */
 #realisations .container {
   text-align: center; }
 
@@ -493,32 +276,7 @@ header nav li:hover {
   width: 33.3333%;
   border: solid 1px #C1AF99; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Contact */
 #contact {
   background: -webkit-linear-gradient(top, rgba(172, 163, 148, 0.5) 0%, rgba(172, 163, 148, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
@@ -527,32 +285,7 @@ header nav li:hover {
   background-size: cover;
   height: 100%; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Footer */
 footer {
   background: #060F2E;
@@ -561,19 +294,6 @@ footer {
 footer .container {
   padding: 20px 0; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
 footer h3 {
   font-size: 20px; }
 
@@ -586,19 +306,6 @@ footer h3 span:last-of-type {
   font-size: 9px;
   letter-spacing: 5px; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
 footer > .container > ul {
   display: table;
   width: 100%;
@@ -610,12 +317,7 @@ footer > .container > ul > li {
   text-align: center;
   padding: 0 40px; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**/
 /* Gauche */
 footer .container > ul > li:first-of-type > ul {
   margin: 20px 0;
@@ -624,12 +326,7 @@ footer .container > ul > li:first-of-type > ul {
 footer .container > ul > li > ul > li > ul {
   margin-left: 30px; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**/
 /* Milieu */
 footer ul li i {
   margin: 20px 7px;
@@ -649,26 +346,10 @@ footer ul li i.fa-linkedin:hover {
 footer ul li i.fa-viadeo:hover {
   color: #FF7E00; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+/**//**//**//**//**/
 /* Droite */
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+
+/**//**//**//**//**//**//**//**//**//**/
 footer p:last-of-type {
   background: #C1AF99;
   color: #060F2E;
@@ -682,31 +363,4 @@ footer p:last-of-type a {
 footer p:last-of-type a:hover {
   color: #fafafa; }
 
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-
-/*# sourceMappingURL=style.css.map */
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
