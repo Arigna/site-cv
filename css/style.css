@@ -1,3 +1,9 @@
+/* Les couleurs principales :
+  - Bleu marine #060F2E // rgb(6, 15, 46)
+  - Taupe #C1AF99 // rgb(193, 175, 153)
+  - Blanc cassé #fafafa
+*/
+
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 /* Les Imports */
 
@@ -101,8 +107,8 @@ header nav li:hover {
 /* Accueil */
 
 #accueil {
-  background: -webkit-linear-gradient(to bottom, rgba(35, 54, 87, 0.6) 0%, rgba(35, 54, 87, 0.6) 100%), url(../img/bg_road.jpg) no-repeat center center;
-  background: linear-gradient(to bottom, rgba(35, 54, 87, 0.6) 0%, rgba(35, 54, 87, 0.6) 100%), url(../img/bg_road.jpg) no-repeat center center;
+  background: -webkit-linear-gradient(to bottom, rgba(6, 15, 46, 0.6) 0%, rgba(6, 15, 46, 0.6) 100%), url(../img/bg_road.jpg) no-repeat center center;
+  background: linear-gradient(to bottom, rgba(6, 15, 46, 0.6) 0%, rgba(6, 15, 46, 0.6) 100%), url(../img/bg_road.jpg) no-repeat center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -208,8 +214,8 @@ header nav li:hover {
 /* Compétences */
 
 #competences {
-  background: -webkit-linear-gradient(to bottom, rgba(35, 54, 87, 0.9) 0%, rgba(35, 54, 87, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
-  background: linear-gradient(to bottom, rgba(35, 54, 87, 0.9) 0%, rgba(35, 54, 87, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
+  background: -webkit-linear-gradient(to bottom, rgba(6, 15, 46, 0.9) 0%, rgba(6, 15, 46, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
+  background: linear-gradient(to bottom, rgba(6, 15, 46, 0.9) 0%, rgba(6, 15, 46, 0.9) 100%), url(../img/bg_competences.jpg) no-repeat center center;
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -304,8 +310,8 @@ header nav li:hover {
 /* Contact */
 
 #contact {
-  background: -webkit-linear-gradient(top, rgba(172, 163, 148, 0.5) 0%, rgba(172, 163, 148, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
-  background: linear-gradient(to bottom, rgba(172, 163, 148, 0.5) 0%, rgba(172, 163, 148, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
+  background: -webkit-linear-gradient(top, rgba(193, 175, 153, 0.5) 0%, rgba(193, 175, 153, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
+  background: linear-gradient(to bottom, rgba(193, 175, 153, 0.5) 0%, rgba(193, 175, 153, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
   height: 100%;
