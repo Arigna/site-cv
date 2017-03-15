@@ -282,7 +282,7 @@ header nav li:hover {
 .rea-cell {
   display: table-cell;
   width: 33.3333%;
-  border: solid 1px #C1AF99;
+  border: solid 1px #ccc;
   position: relative;
 }
 .rea-cell img {
