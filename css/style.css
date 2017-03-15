@@ -144,7 +144,6 @@ header nav li:hover {
   border: solid 1px #fafafa;
   text-transform: uppercase;
   transition-duration: 0.3s;
-  border-radius: 5px;
 }
 #accueil a:hover {
   background: #C1AF99;
@@ -321,7 +320,49 @@ header nav li:hover {
   background: linear-gradient(to bottom, rgba(193, 175, 153, 0.5) 0%, rgba(193, 175, 153, 0.5) 100%), url(../img/bg_contact.jpg) no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
-  height: 100%;
+}
+#contact .container>div {
+  display: table;
+  width: 100%;
+  margin: 40px 0 0;
+}
+#contact div>form {
+  display: table-cell;
+  width: 60%;
+  padding-right: 70px;
+}
+#contact div>adress {
+  display: table-cell;
+  width: 40%;
+  border-left: solid 1px #060F2E;
+  padding-left: 70px;
+}
+#contact form>input, #contact form>textarea {
+  display: block;
+  border: 0;
+  font-weight: 600;
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+  background: inherit;
+  margin: 15px 0;
+  line-height: 35px;
+  padding: 0 5px;
+  width: 100%;
+}
+#contact form>input:not([type="submit"]), #contact form>textarea {
+  border-bottom: solid 1px #060F2E;
+}
+#contact form>input[type="submit"] {
+  background: #060F2E;
+  color: #fafafa;
+  letter-spacing: 1px;
+  border: solid 1px transparent;
+  transition-duration: 0.3s;
+}
+#contact form>input[type="submit"]:hover {
+  background: inherit;
+  border: solid 1px #060F2E;
+  color: #060F2E;
 }
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
