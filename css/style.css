@@ -85,7 +85,9 @@ header h1 span:last-of-type {
   font-size: 14px;
   letter-spacing: 7px;
 }
-
+header .container>i {
+  display: none;
+}
 header nav {
   float: right;
 }
@@ -137,7 +139,7 @@ header nav li:hover {
 }
 #accueil a {
   display: inline-block;
-  margin: 40px auto;
+  margin: 40px auto 0;
   line-height: 56px;
   padding: 0 20px;
   color: #fafafa;
@@ -322,12 +324,11 @@ header nav li:hover {
   background-size: cover;
 }
 #contact .container {
-  background: rgba(250, 250, 250, 0.3);
   padding: 40px;
 }
 #contact div>form {
   width: 60%;
-  margin: 40px auto 0;
+  margin: 50px auto 0;
 }
 #contact form>input, #contact form>textarea {
   display: block;
@@ -441,3 +442,82 @@ footer p:last-of-type a:hover {
 }
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+/* Responsive */
+
+@media screen and (min-width: 320px) and (max-width: 640px) {
+  .container {
+    width: 90%;
+  }
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+  header h1 {
+    font-size: 16px;
+  }
+  header h1 span:last-of-type {
+    font-size: 8px;
+    letter-spacing: 3px;
+  }
+  header .container>i {
+    display: block;
+    float: right;
+    border: solid 1px #fafafa;
+    padding: 5px 8px;
+    margin-top: 2px;
+  }
+  .burger-active { /* Pour Anim JS */
+    background: #C1AF99;
+  }
+  header nav {
+    float: none;
+    display: none;
+    clear: both;
+    margin-top: 50px;
+  }
+  header nav li {
+    display: block;
+    padding: 0;
+    border-top: solid 1px #C1AF99;
+    font-size: 16px;
+  }
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+  #accueil cite {
+    font-size: 20px;
+  }
+  #accueil cite span {
+    font-size: 30px;
+  }
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+  #presentation {
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+  #presentation ul {
+    float: none;
+  }
+  #presentation ul li {
+    float: none;
+    padding: 0 0 0 20px;
+    background: #060F2E;
+  }
+  #presentation ul li a::before {
+    content: '+';
+    margin-right: 5px;
+  }
+  #presentation a#dl-cv {
+    float: none;
+    border-radius: 0;
+    padding: 0 0 0 20px;
+  }
+  #presentation h2 {
+    margin-top: 40px;
+  }
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+  #competences .container>ul {
+    display: block;
+    margin-top: 40px;
+  }
+  #competences .container>ul>li {
+    display: block;
+  }
+  /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+}
