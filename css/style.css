@@ -321,21 +321,13 @@ header nav li:hover {
   -webkit-background-size: cover;
   background-size: cover;
 }
-#contact .container>div {
-  display: table;
-  width: 100%;
-  margin: 40px 0 0;
+#contact .container {
+  background: rgba(250, 250, 250, 0.3);
+  padding: 40px;
 }
 #contact div>form {
-  display: table-cell;
   width: 60%;
-  padding-right: 70px;
-}
-#contact div>adress {
-  display: table-cell;
-  width: 40%;
-  border-left: solid 1px #060F2E;
-  padding-left: 70px;
+  margin: 40px auto 0;
 }
 #contact form>input, #contact form>textarea {
   display: block;
